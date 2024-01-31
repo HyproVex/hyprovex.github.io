@@ -2,29 +2,40 @@ body{
     background-color: rgb(255, 255, 255);
     margin: 0px;
 }
+
 h2{
     margin-left: 25px;
     margin-right: 25px;
 }
+
 main{
     margin-left: 10px;
     margin-right: 10px;
     animation-name: SlideLeft;
     animation-duration: 1s;
 }
+
 @keyframes SlideLeft{
     from{transform: translateX(100%);}
 }
-h1{
+
+#h1_1{
     text-align: center;
     color: rgb(172, 110, 230);
     text-shadow: 2px 2px 3px rgb(168, 221, 255);
     animation-name: dolů;
     animation-duration: 1s;
 }
+#h1_2{
+    text-align: center;
+    color: rgb(172, 110, 230);
+    text-shadow: 2px 2px 3px rgb(168, 221, 255);
+}
+
 @keyframes dolů{
     from{transform: translateY(-100%);}
 }
+
 .navbar ul{
     height: 50px;
     background-color: tomato;
@@ -41,15 +52,18 @@ h1{
     display: block;
     text-align: center;
 }
+
 .navbar a:hover{
     background-color: rgb(240, 90, 64);
     font-size: 17px;
     transition: all 500ms;
     font-size-adjust: 20px;
 }
+
 .navbar li:hover{
     float: left;
 }
+
 .navbar li{
     float: left;
 }
