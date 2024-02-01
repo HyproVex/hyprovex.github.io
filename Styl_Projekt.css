@@ -6,13 +6,13 @@ body{
 }
 
 h2{
-    margin-left: 25px;
-    margin-right: 25px;
+    text-align: center;
+    animation-name: SlideLeft;
+    animation-duration: 1s;
 }
 
 main{
-    margin-left: 10px;
-    margin-right: 10px;
+    text-align: center;
     animation-name: SlideLeft;
     animation-duration: 1s;
 }
@@ -68,4 +68,42 @@ main{
 
 .navbar li{
     float: left;
+}
+.gallery{
+    display: inline-block;
+    border: 1px solid gray;
+    margin: 5px;
+    width: 25%;
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 1px solid rgb(87, 232, 227);
+}
+.gallery img{
+    width: 100%;
+}
+#update{
+    color: tomato;
+}
+.fa-brands.fa-github.fa-10x{
+    color: rgb(20, 20, 20);
+    text-shadow: 0px 0px 2px white;
+}
+.fa-brands.fa-youtube.fa-10x{
+    color: tomato;
+}
+.fa-brands.fa-github.fa-10x:hover{
+    color: black;
+    font-size: 180px;
+    transition: all 500ms;
+    font-size-adjust: 20px;
+}
+.fa-brands.fa-youtube.fa-10x:hover{
+    color: rgb(222, 76, 51);
+    font-size: 180px;
+    transition: all 500ms;
+    font-size-adjust: 20px;
 }
