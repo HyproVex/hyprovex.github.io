@@ -42,7 +42,7 @@ main{
     text-align: center;
     margin-top: 100;
     color: rgb(94, 223, 255);
-    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(0, 246, 254);
 }
 
 @keyframes dolů{
