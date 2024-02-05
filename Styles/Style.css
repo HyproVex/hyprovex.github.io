@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background-image: url(/neonflames.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    color: aliceblue;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body::-webkit-scrollbar{
+    width: 0.1rem;
+}
+body::-webkit-scrollbar-track{
+    background: rgba(0, 0, 0, 0.283);
+}
+body::-webkit-scrollbar-thumb{
+    background: rgb(0, 255, 255);
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+footer{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    bottom: 0;
+    position: absolute;
+    text-shadow: 0px 0px 3px white;
+}
+h1{
+    text-align: center;
+    text-shadow: 0px 0px 3px white;
+}
+h1::first-letter{
+    font-size: larger;
+    font-style: oblique;
+}
+#Pages{
+    color: aquamarine;
+    border: none;
+    float: right;
+    margin-top: 10px;
+    font-size: 1.6em;
+    margin-right: 46.7%;
+    text-shadow: 0px 0px 3px aquamarine;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.133);
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(122, 240, 255);
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    text-shadow: 0px 0px 3px cyan;
+}
+.navbar a:hover{
+    background-color: rgba(37, 37, 37, 0.527);
+    font-size: 1.1em;
+    color: rgb(205, 255, 255);
+}
+.navbar li{
+    float: left;
+    border-right: 1px solid rgba(255, 255, 255, 0.119);
+    border-left: 1px solid rgba(255, 255, 255, 0.119);
+}

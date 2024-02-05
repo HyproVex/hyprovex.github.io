@@ -1,0 +1,39 @@
+.navbar a{
+    font-size: 16px;
+    transition: all 500ms;
+    font-size-adjust: 20px;
+}
+
+.navbar a:hover{
+    font-size: 17px;
+    transition: all 250ms;
+    font-size-adjust: 20px;
+}
+
+
+h1{
+    animation-name: TitleAn;
+    animation-duration: 10s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+}
+@keyframes TitleAn{
+    0%{
+        transform: rotateZ(0deg) /* translateY(-100%) */;
+    }
+    20%{
+        transform: rotateZ(-4deg);
+    }
+    40%{
+        transform: rotateZ(4deg);
+    }
+    60%{
+        transform: rotateZ(-4deg);
+    }
+    80%{
+        transform: rotateZ(4deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
+}
