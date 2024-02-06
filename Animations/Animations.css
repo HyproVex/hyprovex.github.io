@@ -22,18 +22,38 @@ h1{
         transform: rotateZ(0deg) /* translateY(-100%) */;
     }
     20%{
-        transform: rotateZ(-4deg);
+        transform: rotateZ(-2deg);
     }
     40%{
-        transform: rotateZ(4deg);
+        transform: rotateZ(2deg);
     }
     60%{
-        transform: rotateZ(-4deg);
+        transform: rotateZ(-2deg);
     }
     80%{
-        transform: rotateZ(4deg);
+        transform: rotateZ(2deg);
     }
     100%{
         transform: rotateZ(0deg);
     }
+}
+
+h1{
+    font-size: 30px;
+    transition: all 500ms;
+}
+
+h1:hover{
+    font-size: 35px;
+    transition: all 500ms;
+}
+
+footer p{
+    font-size: 16px;
+    transition: all 500ms;
+}
+
+footer p:hover{
+    font-size: 22px;
+    transition: all 500ms;
 }

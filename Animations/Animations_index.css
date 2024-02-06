@@ -1,0 +1,22 @@
+.updateLog li{
+    font-size: 17px;
+    transition: all 500ms; 
+}
+
+.updateLog li:hover{
+    font-size: 20px;
+    transition: all 500ms; 
+}
+
+.updateLog{
+    animation-name: Slide;
+    animation-duration: 1s;
+}
+@keyframes Slide{
+    from{
+        transform: translateX(10%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
