@@ -10,16 +10,16 @@
     font-size-adjust: 20px;
 }
 
-
-h1{
-    animation-name: TitleAn;
-    animation-duration: 10s;
+header{
+    animation-name: titleK;
+    animation-duration: 18s;
     animation-delay: 0.2s;
     animation-iteration-count: infinite;
 }
-@keyframes TitleAn{
+
+@keyframes titleK{
     0%{
-        transform: rotateZ(0deg) /* translateY(-100%) */;
+        transform: rotateZ(0deg);
     }
     20%{
         transform: rotateZ(-2deg);

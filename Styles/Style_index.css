@@ -2,18 +2,21 @@
     text-align: center;
     text-shadow: 0px 0px 3px white;
 }
-.updateLog ul{
-    list-style-type: none;
-}
 #Date{
     color: orange;
-    text-shadow: 0px 0px 3px rgb(255, 245, 214);
+    text-shadow: 0px 0px 3px rgb(255, 191, 0);
     font-size: 1.2em;
 }
-.updateLog li{
+ul{
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
     color: rgb(140, 255, 0);
-    text-shadow: 0px 0px 3px red;
+    text-shadow: 0px 0px 3px greenyellow;
+    margin: 0;
+    margin-right: 30px;
 }
 #important{
     color: tomato;
+    text-shadow: 0px 0px 3px red;
 }

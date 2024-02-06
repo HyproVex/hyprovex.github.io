@@ -20,3 +20,21 @@
         transform: translateX(0%);
     }
 }
+
+.title {
+    animation-name: slideD;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes slideD{
+    0%{
+        transform: translateY(-100%);
+    }
+    50%{
+        transform: translateY(10%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
