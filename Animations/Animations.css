@@ -12,8 +12,8 @@
 
 header{
     animation-name: titleK;
-    animation-duration: 18s;
-    animation-delay: 0.2s;
+    animation-duration: 17s;
+    animation-delay: 0.3s;
     animation-iteration-count: infinite;
 }
 
@@ -22,16 +22,16 @@ header{
         transform: rotateZ(0deg);
     }
     20%{
-        transform: rotateZ(-2deg);
+        transform: rotateZ(-3deg);
     }
     40%{
-        transform: rotateZ(2deg);
+        transform: rotateZ(3deg);
     }
     60%{
-        transform: rotateZ(-2deg);
+        transform: rotateZ(-3deg);
     }
     80%{
-        transform: rotateZ(2deg);
+        transform: rotateZ(3deg);
     }
     100%{
         transform: rotateZ(0deg);
