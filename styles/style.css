@@ -8,6 +8,7 @@ body{
     background-image: url(neonflames.png);
     background-position: center;
     background-size: cover;
+    overflow-x: hidden;
 }
 .title{
     float: left;
