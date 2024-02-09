@@ -1,0 +1,36 @@
+.updatelog li{
+    font-size: 1.1em;
+    transition: all 500ms; 
+}
+
+.updatelog li:hover{
+    font-size: 1.3em;
+    transition: all 500ms; 
+}
+
+.updatelog{
+    animation-name: Slide;
+    animation-duration: 500ms;
+}
+@keyframes Slide{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+.title{
+    animation: titlebig 800ms
+}
+@keyframes titlebig{
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
