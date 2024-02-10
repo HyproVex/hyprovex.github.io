@@ -6,22 +6,25 @@
 .updatelog li:hover{
     font-size: 1.3em;
     transition: all 500ms; 
+    text-shadow: 0px 0px 10px greenyellow;
 }
-
+#important:hover{
+    text-shadow: 0px 0px 10px rgb(255, 64, 64);
+}
 .updatelog{
     animation-name: Slide;
     animation-duration: 500ms;
 }
 @keyframes Slide{
     from{
-        transform: translateX(100%);
+        transform: translateX(80%);
     }
     to{
         transform: translateX(0%);
     }
 }
 .title{
-    animation: titlebig 800ms
+    animation: wooble 17s 600ms infinite, titlebig 800ms
 }
 @keyframes titlebig{
     0%{
@@ -32,5 +35,25 @@
     }
     100%{
         transform: scale(1);
+    }
+}
+@keyframes wooble{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    20%{
+        transform: rotateZ(-3deg);
+    }
+    40%{
+        transform: rotateZ(3deg);
+    }
+    60%{
+        transform: rotateZ(-3deg);
+    }
+    80%{
+        transform: rotateZ(3deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
     }
 }
