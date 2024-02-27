@@ -12,14 +12,16 @@
     text-shadow: 0px 0px 10px rgb(255, 64, 64);
 }
 .updatelog{
-    animation-name: Slide;
-    animation-duration: 500ms;
+    animation: Slide 0.8s;
 }
 @keyframes Slide{
-    from{
-        transform: translateX(80%);
+    0%{
+        transform: translateX(20%);
     }
-    to{
+    50%{
+        transform: translateX(-1%);
+    }
+    100%{
         transform: translateX(0%);
     }
 }

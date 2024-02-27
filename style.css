@@ -3,29 +3,28 @@
     padding: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.wrapper1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 body{
     color: white;
-    background-image: url(skloprof.png);
+    background-image: url(background.png);
     background-size: cover;
     overflow-x: hidden;
 }
 .title{
-    float: left;
     display: block;
-    margin-left: 3%;
-    margin-right: 5%;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 5%;
     font-size: 8em;
     text-shadow: 0px 0px 15px white;
 }
 
 .navbar ul{
-    margin-top: 50px;
+    margin-top: 10%;
     position: relative;
-    right: 5%;
     list-style-type: none;
-    float: right;
 }
 .navbar a{
     color: aliceblue;
@@ -38,8 +37,8 @@ body{
     border: 1px solid white;
     background-color: rgba(94, 94, 94, 0.383);
     border-radius: 10px;
+    margin-bottom: 2%;
     width: 500px;
-    margin-top: 10px;
 }
 .navbar li:hover{
     border-color: hsl(271, 100%, 86%);
@@ -51,5 +50,4 @@ body{
     margin-left: 2%;
     margin-bottom: 2%;
     bottom: 0;
-    
 }

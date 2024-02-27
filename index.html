@@ -1,50 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/index_style.css">
-    <link rel="stylesheet" href="/animations/animations.css">
-    <link rel="stylesheet" href="/animations/index_animations.css">
-    <title> HyperTale </title>
-</head>
-<body>
-    
-    <header>
-        <h1 class="title"> HyperTale </h1>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="index_style.css">
+        <link rel="stylesheet" href="animations.css">
+        <link rel="stylesheet" href="index_animations.css">
+        <title> HyperTale </title>
+    </head>
+    <body>
+        <header>
+            <div class="wrapper1">
+                <h1 class="title"> HyperTale </h1>
 
-        <nav class="navbar">
-            <ul>
-                <li>
-                    <a href="index.html"><span> Home </span></a>
-                </li>
-                <li>
-                    <a href="projects.html"><span> Projects </span></a>
-                </li>
-                <li>
-                    <a href="social.html"><span> Social </span></a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+                <div class="navbar">
+                    <ul>
+                        <li>
+                            <a href="index.html"> Home </a>
+                        </li>
+                        <li id="locked">
+                            <a href="index.html"> Projects </a>
+                        </li>
+                        <li id="locked">
+                            <a href="index.html"> Social </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="updatelog">
 
-    <main>
-        <div class="updatelog">
+                <h3> Update Log </h3>
+                <ul class="updatelist">
+                    <li id="important"> FlexBox update </li>
+                    <li> removed page Project </li>
+                    <li> removed page Social </li>
+            </div>
+        </main>
+        <footer>
 
-            <h3> Update Log </h3>
-            <ul class="updatelist">
-                <li> fixed title animation issue </li>
-                <br>
-                <li> element placement </li>
-                <br>
-            </ul>
-        </div>        
-    </main>
-    
-    <footer>
-        <h4 class="ver"> Version 0.4.1 </h4>
-    </footer>
-
-</body>
+            <h4 class="ver"> Version 0.5.0 </h4>
+        
+        </footer>
+    </body>
 </html>
