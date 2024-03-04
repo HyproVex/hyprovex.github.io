@@ -16,13 +16,13 @@
 }
 @keyframes Slide{
     0%{
-        transform: translateX(20%);
+        transform: translateY(50%);
     }
     50%{
-        transform: translateX(-1%);
+        transform: translateY(-2%);
     }
     100%{
-        transform: translateX(0%);
+        transform: translateY(0%);
     }
 }
 .title{
@@ -57,5 +57,18 @@
     }
     100%{
         transform: rotateZ(0deg);
+    }
+}
+@property --gradient-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+@keyframes rotation {
+    0% {
+        --gradient-angle: 0deg;
+    }
+    100% {
+        --gradient-angle: 360deg;
     }
 }
